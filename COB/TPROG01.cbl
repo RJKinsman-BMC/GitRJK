@@ -5,7 +5,7 @@
 000500 DATE-COMPILED.
 000600
 000700********************************************************
-      * Modification 1
+      * Modification 1a
 000800* THIS PROGRAM IS A TRAINING PROGRAM-MKS1
 000900*      WITH A LINK TO TSUBR01
 001000*
