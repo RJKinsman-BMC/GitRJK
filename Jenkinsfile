@@ -6,8 +6,8 @@ import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import java.net.URL
 
-String ISPW_Application     = "MKS1"        // Change to your assigned application
-String HCI_Token            = "PFHMKS0"     // Change to your assigned ID
+String ISPW_Application     = "RJK1"        // Change to your assigned application
+String HCI_Token            = "HCHRJK0"     // Change to your assigned ID
 
 node {
   stage ('Checkout')
@@ -27,8 +27,10 @@ node {
     //connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
     connectionId: '4b4cf589-b835-4579-96ee-2aba6b818125', // TD-CWCC
     credentialsId: "${HCI_Token}",
-    gitCredentialsId: 'ec3e192a-3e5f-4c5f-bb40-129b63ce6c23', // Mingh9999
-    gitRepoUrl: 'https://github.com/msingh9999/GitTXXX.git',
+    gitCredentialsId: 'RJK_BMC_Github', // RJKinsman-BMC
+    gitRepoUrl: 'https://github.com/RJKinsman-BMC/GitRJK.git',
+//    gitCredentialsId: 'ec3e192a-3e5f-4c5f-bb40-129b63ce6c23', // Mingh9999
+//    gitRepoUrl: 'https://github.com/msingh9999/GitTXXX.git',
     //runtimeConfig: 'isp8', // CWC2
     runtimeConfig: 'ispw', // CWCC
     stream: 'FTSDEMO'
