@@ -5,6 +5,7 @@
 000500 DATE-COMPILED.
 000600
 000700********************************************************
+      * changes for Jira RJK-1111
 000800* THIS PROGRAM IS A TRAINING PROGRAM
 000900*      WITH A LINK TO TSUBR01
 001000*
