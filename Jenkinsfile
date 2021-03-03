@@ -42,7 +42,7 @@ node {
     ispwOperation connectionId: '4b4cf589-b835-4579-96ee-2aba6b818125', // TD-CWCC
     consoleLogResponseBody: false,
     //credentialsId: 'CWEZXXX-CES', // CWC2
-    credentialsId: 'PFHMKS0-CES', // CWCC
+    credentialsId: 'HCHRJK0-CES', // CWCC
     ispwAction: 'BuildTask',
     ispwRequestBody: '''buildautomatically = true'''
   }
