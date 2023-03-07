@@ -1,7 +1,7 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID.  CWXTSUBC.
       ******************************************************************
-      *                                                               *
+      *                                                                *
       ******      C O M P U W A R E   C O R P O R A T I O N       ******
       *                                                                *
       *  THIS CALLED PROGRAM IS THE COBOL DEMO PROGRAM USED FOR        *
@@ -10,17 +10,17 @@
       *  CALCULATES COMMISIONS FOR SALES AND MANAGEMENT EMPLOYEE       *
       *  BASED ON MONTHLY SALES RATES                                  *
       *                                                                *
-      * Demo 2023/02/28 - 16:10                                        * 
+      * Demo 2023/02/28 - 16:10                                        *
       *                                                                *
       *                                                                *
-      * ꞸꞹꞺꞻꞼꞽꞾꞿꟀꟁꟂꟃꟄ*»«ꟈꟉꟊꟋꟌꟍ꟎꟏Ꟑꟑ꟒ꟓ꟔ꟕꟖꟗꟘꟙꟚꟛꟜ*꟞꟟꟠꟡꟢꟣꟤꟥꟦꟧               *
+      * ꞸꞹꞺꞻꞼꞽꞾꞿꟀꟁꟂꟃꟄꟅꟆꟇꟈꟉꟊꟋꟌꟍ꟎꟏Ꟑꟑ꟒ꟓ꟔ꟕꟖꟗꟘꟙꟚꟛꟜ*꟞꟟꟠꟡꟢꟣꟤꟥꟦꟧               *
       * ꟨꟩꟪꟫꟬꟭꟮꟯꟰꟱ꟲꟳꟴꟵꟶ鿖  âäàáãåçñ¢.<(+|&éêëèíîïìß!$*);^               *
       * -/ÂÄÀÁÃÅÇÑ¦,%_>?øÉÊËÈÍÎÏÌ`:#@'="Øabcdefghi«»ðýþ±               *
       * °jklmnopqrªºæ¸Æ¤µ~stuvwxyz¡¿Ð[Þ®¬£¥·©§¶¼½¾Ý¨¯]´×              *
       * {ABCDEFGHI­ôöòóõ}JKLMNOPQR¹ûüúÿ\÷STUVWXYZ²ÔÖÒÓÕ                *
       * 0123456789³ÛÜÙÚ꨻                                               *
       *                                                                *
-      *                                                                *      
+      *                                                                *
       ******************************************************************
        ENVIRONMENT DIVISION.
        DATA DIVISION.
@@ -28,8 +28,8 @@
       ***
       ***
       ***
-       77  EBCDIC-STRING PIC X(44) VALUE 
-           IS 'ꞸꞹꞺꞻꞼꞽꞾꞿꟀꟁꟂꟃꟄ*»«ꟈꟉꟊꟋꟌꟍ꟎꟏Ꟑꟑ꟒ꟓ꟔ꟕꟖꟗꟘꟙꟚꟛꟜ*꟞꟟꟠꟡꟢꟣꟤꟥꟦꟧ '.
+       77 HEX-VALUE PIC X(88) VALUE
+           'ꞸꞹꞺꞻꞼꞽꞾꞿꟀꟁꟂꟃꟄ*»«ꟈꟉꟊꟋꟌꟍ꟎꟏Ꟑꟑ꟒ꟓ꟔ꟕꟖꟗꟘꟙꟚꟛꟜ*꟞꟟꟠꟡꟢꟣꟤꟥꟦꟧'
        01  MGMT-RANGE        PIC 9(6)V99.
            88  M-RANGE1           VALUES ARE      1 THRU 100000.
            88  M-RANGE2           VALUES ARE 100001 THRU 200000.
