@@ -10,7 +10,7 @@
 001000*
 001100*      AND COPYLIBS   TCPYA01   (HEADER)
 001200*                     TCPYB01   (LINK AREA)
-001300* ======================================================
+001300* =====================================================
 001400*  ISPW (TM)
 001500*  COPYRIGHT (C) 1986-2016 COMPUWARE CORPORATION.
 001600*  UNPUBLISHED RIGHTS RESERVED UNDER THE COPYRIGHT
